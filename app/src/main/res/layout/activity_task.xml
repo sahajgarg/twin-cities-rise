@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_task"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaskActivity"
+    android:padding="10dp"
+    android:gravity="center|top"
+    android:background="#7968D1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize = "18sp"
+            android:textColor="#FFFF"
+            android:text="Date due: "
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize = "18sp"
+            android:id="@+id/date_text"
+            android:textColor="#FFFF"
+            android:text="test text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="TASK: "
+            android:textColor="#FFFF"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@android:color/white"
+            android:layout_marginStart="10sp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize = "18sp"
+            android:id="@+id/task_text"
+            android:textColor="#FFFF"
+            android:text="test text"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize = "25sp"
+            android:text="STATUS: "
+            android:textColor="#FFFF"
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@android:color/white"
+            android:layout_marginStart="10sp"
+
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/status_buttons"
+            android:padding="20dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "18sp"
+                android:text="Done"
+                android:id="@+id/radio_done"
+                android:textColor="#FFFF"
+                android:buttonTint="#FFFF"/>
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "18sp"
+                android:text="In Progress"
+                android:id="@+id/radio_progress"
+                android:textColor="#FFFF"
+                android:buttonTint="#FFFF"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "18sp"
+                android:text="Need Help: Please Contact Me"
+                android:id="@+id/radio_contact"
+                android:textColor="#FFFF"
+                android:buttonTint="#FFFF"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Need More Time"
+                android:textSize = "18sp"
+                android:id="@+id/radio_time"
+                android:textColor="#FFFF"
+                android:buttonTint="#FFFF"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Want to Make A Change"
+                android:textSize = "18sp"
+                android:id="@+id/radio_change"
+                android:textColor="#FFFF"
+                android:buttonTint="#FFFF"
+                />
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:background="#FAA21C"
+        android:onClick="updateStatus"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Helpful Links:"
+        android:textColor="#FFFF"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/links_list"
+        android:textColor="#FFFF"
+        >
+
+    </ListView>
+</LinearLayout>

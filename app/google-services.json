@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "357492294050",
+    "firebase_url": "https://twincitiesrise2.firebaseio.com",
+    "project_id": "twincitiesrise2",
+    "storage_bucket": "twincitiesrise2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357492294050:android:11ec3be7d2ec76b5",
+        "android_client_info": {
+          "package_name": "cssg50.cs.tcr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357492294050-r814iu3paj9201tipif2oqsp6i4tc4dd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cssg50.cs.tcr",
+            "certificate_hash": "778d3d827438d17034b82d3aec2e78f03a6d5903"
+          }
+        },
+        {
+          "client_id": "357492294050-qrnb6qrhqfl2sht10ggoh9f5js25b03a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj0bRuaCFVwlk-AMfuFDIP9bLL1V2RzF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357492294050-qrnb6qrhqfl2sht10ggoh9f5js25b03a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

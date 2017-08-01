@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TwinCitiesRise</string>
+    <string name="auth_failed">Login Failed</string>
+    <string name="title_activity_main_page">MainPage</string>
+</resources>
